@@ -1,0 +1,143 @@
+.userPage{
+    flex: 4;
+    padding: 20px;
+}
+.userTitleContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.Createbutton{
+    border:none;
+    border-radius: 5px;
+    background: rgb(45, 65, 65);
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.Createbutton:hover{
+    background: rgb(42, 156, 7) ;
+}
+.userContainer{
+    display: flex;
+    margin-top: 2rem;
+}
+.usershow{
+    flex: 1;
+    box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    padding: 1rem;
+}
+.userUpdate{
+    flex: 2;
+    box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    margin-left: 1rem;
+}
+.usershowTop{
+    display: flex;
+    align-items: center;
+}
+.userShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.usershowTitleContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.usershowName{
+    font-weight: 600;
+}
+.usershowTitle{
+    font-weight: 300;
+}
+.userDetails{
+    margin-top: 2rem;
+}
+.userDetailTitle{
+    font-weight: 300;
+    font-size: 16px;
+   
+}
+.usershowDetails{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.usershowDetails svg{
+    font-size: 16px;
+}
+.userDetailsTitle{
+    margin-left: 1rem;
+}
+.userUpdate{
+    padding: 1rem;
+}
+.userupdateTitle{
+    font-size: 24px;
+    font-weight: 700;
+}
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.formItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.formlabel{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.formInput{
+    border: none;
+    width: 250px;
+    color:black;
+    height: 30px;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+    padding: 0 5px;
+}
+.formInput:focus{
+   
+    outline: none;
+}
+.updateImg{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.formRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.updateContainer{
+    display: flex;
+    align-items: center;
+}
+.updataIcon{
+    font-size: 15px;
+    color: brown;
+    margin-left: 5px;
+}
+.userupdateButton{
+    border:none;
+    padding: 8px 10px;
+    background: rgb(54, 54, 163);
+    border-radius: 10px;
+    color: white;
+}
+.userupdateButton:hover{
+    background: darkred;
+}
+    

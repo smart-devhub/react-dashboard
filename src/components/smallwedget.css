@@ -1,0 +1,60 @@
+.smallWidget{
+    flex: 1;
+    box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    -moz-box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.74);
+    padding: 2rem;
+    margin-right: 1rem;
+    
+}
+.smallWidTitle{
+    font-size: 32px;
+    font-weight: 700px;
+}
+.smallWidImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.smallWidList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.smallWidItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+
+}
+.smallWidUserInfo{
+    display: flex;
+    flex-direction: column;
+}
+.SmallWidUserName{
+    font-weight: 800;
+}
+.SmallWidUserTitle{
+    font-weight: 300;
+}
+.smallWidbutton{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px ;
+    border: none;
+    background: rgb(129, 81, 21);
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.smallWidbutton:hover{
+    background: rgb(207, 133, 41);
+
+}
+.smallWidbutton svg{
+    margin-right: 5px;
+    font-size: 18px;
+}
